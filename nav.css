@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.clear {
+	clear:both;
+}
+body {
+	background-image: url("../img/bg2.jpg");
+}
+
+/*.logo {
+	font-family:Trajan Pro;
+	font-size:200%;
+	margin-top:20px;
+}*/
+
+.learning {
+margin-top:5px;
+}
+
+a {
+text-decoration: none;
+}
+
+a:link {
+color:red;
+}
+
+a:visited {
+color:green;
+}
+
+a:hover {
+color:hotpink;
+}
+
+a:active {
+color: blue;
+}
+
+fieldset {
+	border-radius:5px;
+}
+
+legend {
+	align:left;
+}
+
+.left-side-bar {
+	float:left;
+	width:200px;
+}
+
+.right-side-bar {
+	float:right;
+	width:200px;
+}
+
+.main_body{
+	width: 980px;
+	padding-top: 20px;
+}
+
+.menu ul {
+	text-decoration:none;
+	list-style:none;
+}
+
+.menu ul li{
+	background-color:#003d99;
+	color:white;
+	/*border-right: 1px solid #808080;*/
+    float: right;
+    height: 30px;
+	width: 110px
+    list-style : outside none;
+    padding: 10px;
+    text-decoration: none;
+	transition:all linear 0.3s;
+	margin-left:5px;
+	border-radius:10px 0 10px 0;
+	font-size:2em;
+}
+
+.menu ul a{
+	color:#FFF;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+
+.menu ul li:hover{
+	background-color:#06F;
+	color:#FFFFFF;
+}
+
+.menu ul .active li{
+	background-color:#06F;
+	color:#FFFFFF;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+	font-size: 15px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 8px 2px;
+	margin-top:3px;
+	border-radius:3px;
+	z-index:1;
+}
+
+.dropdown-content li{
+	min-width:200px;
+	margin:2px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer-menu ul{
+	text-decoration:none;
+	list-style:none;
+}
+
+.footer-menu ul li{
+	text-decoration:none;
+	list-style:none;
+	float:left;
+	margin-left:20px;
+	color:#06F;
+}
+
+.footer-menu ul li:hover{
+	text-decoration:none;
+	list-style:none;
+	float:left;
+	margin-left:20px;
+	color:#000;
+	transition:all linear 0.3s;
+}
+
+.footer-menu ul li a{
+	list-style:none;
+	text-decoration:none;
+	color:#0F3;
+}
+
+
+.main-cont {
+	width:980px;
+}
