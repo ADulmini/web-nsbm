@@ -1,0 +1,30 @@
+a#a{	color:#0052cc;text-decoration:none;
+	position:absolute;
+	top:25%;
+	left:50%;
+	}
+a#b{	color:#0052cc;text-decoration:none;
+	position:absolute;
+	top:35%;
+	left:50%;
+	}
+a#c{	color:#0052cc;text-decoration:none;
+	position:absolute;
+	top:45%;
+	left:50%;
+	}
+a#d{	color:#0052cc;text-decoration:none;
+	position:absolute;
+	top:55%;
+	left:50%;
+	}
+a{	text-decoration:none;
+	color:#000066;}
+
+a:hover {	background-color:#e6f2ff;}
+
+h2{border-style:none;
+	border-width:1px;
+	border-color="black";}
+	
+
